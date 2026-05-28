@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+#main{
+    background-color: burlywood;
+    color:white;
+    text-align:center;
+}
+h2{
+    margin-bottom:20px;
+    text-align:center;
+    font-weight:100px;
+}
+.event{
+    background-color: brown;
+    margin:20px;
+    padding:15px;
+
+
+}
+h3,p{
+    color:red;
+    background-color: burlywood;
+}

@@ -1,0 +1,26 @@
+body{
+    margin:20px;
+    padding:20px;
+    background-color: bisque;
+}
+.header{
+    background-color: brown;
+    color:white;
+
+}
+.header h1{
+    font-family: arial;
+    font-style: italic;
+    font-weight:100px;
+
+}
+.s1{
+    background-color: brown;
+}
+.tag{
+   
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 2px;
+}

@@ -1,0 +1,9 @@
+.parent{
+    color:blueviolet;
+    background-color: cornsilk;
+    font-weight: 100px;
+}
+.child{
+    color:brown ;
+    font-weight: 100px;
+}

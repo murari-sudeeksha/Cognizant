@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    gap: 20px;
+    background-color: #2196f3;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2vw;
+}
+
+img {
+    width: 50%;
+}
+
+
+@media (max-width: 768px) {
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        width: 95%;
+        font-size: 4vw;
+    }
+
+    img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+.eventCard {
+    border: 2px solid #2196f3;
+    padding: 15px;
+    margin: 15px;
+    background-color: #f2f9ff;
+}
+
+
+.selected {
+    border: 3px solid green;
+    outline: 3px solid orange;   }
+
+
+input {
+    display: block;
+    margin: 10px;
+    padding: 8px;
+}
+
+.hidden {
+    visibility: hidden;  
+}
+
+.none {
+    display: none;     
+}
