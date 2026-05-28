@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function videoReady() {
+    
+        alert("Video ready to play");
+}
+
+window.onbeforeunload = function() {
+    return "Your form is not submitted!";
+}
+
+</script>
+
+</head>
+
+<body>
+
+<video width="400"
+       controls
+       oncanplay="videoReady()">
+
+    <source src="11700405-uhd_3840_2160_30fps.mp4" type="video/mp4">
+
+</video>
+
+<p id="msg"></p>
+
+</body>
+</html>

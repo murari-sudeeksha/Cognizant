@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validate(){
+let p=document.getElementById("phone").value;
+if(p.length!=10)
+alert("please enter 10 digits ");
+        }
+        function display(){
+            let fees=document.getElementById("event").value;
+            if(fees=="Music")
+            document.getElementById("fees").innerText=500;
+         else if(fees=="Sports")
+            document.getElementById("fees").innerText=200;
+        else if(fees=="Book")
+            document.getElementById("fees").innerText=100;
+        else if(fees=="Art")
+            document.getElementById("fees").innerText=400;
+        else 
+         document.getElementById("fees").innerText=0;
+        }
+        function submitted()
+        {
+            alert("Form submitted Successfully");
+        }
+        function enlarge(img){
+img.style.width="500px";
+img.style.height="500px";
+
+        }
+        function count(){
+
+            let text =
+            document.getElementById("feedback").value;
+
+            document.getElementById("count").innerHTML =
+            "Characters: " + text.length;
+        }
+
+
+    </script>
+</head>
+<body>
+    <input type="number" id="phone" placeholder="Enter phone number" onblur="validate()">
+    <br>
+
+    <select id="event" onchange="display()">
+        <option value="Music">Music</option>
+         <option value="Sports">Sports</option>
+          <option value="Book">Book</option>
+           <option value="Art">Art</option>
+    </select>
+    <br>
+    <p id="fees">fees: </p>
+    <br>
+    <button type="submit" onclick="submitted()">Submit Button</button>
+    <br>
+    <img src="C:\Users\murar\Pictures\Screenshots\Screenshot 2026-04-03 173650.png" width="100" height="100" ondblclick="enlarge(this)" >
+    <br>
+    <textarea onkeyup="count()" id="feedback"></textarea>
+    <br>
+    <p id="count">count chars:</p>
+</body>
+</html>
