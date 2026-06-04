@@ -1,5 +1,5 @@
 const user = {
-    name: "Saryu",
+    name: "Sudeeksha",
     event: "Music Fest"
 };
 
